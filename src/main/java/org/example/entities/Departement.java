@@ -1,11 +1,9 @@
 package org.example.entities;
-package entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+
+
+import jakarta.persistence.*;
+
 import java.util.List;
 
 @Entity

@@ -13,6 +13,9 @@
        	<property name = "hibernate.hbm2ddl.auto">create</property>
         
         <!-- Mapping files or annotated classes -->
-        <mapping class="org.example.Entreprise"/>
+     
+                <mapping class="entities.Employe"/>
+                <mapping class="entities.Departement"/>
+
     </session-factory>
 </hibernate-configuration>
